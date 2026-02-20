@@ -575,7 +575,7 @@
             if (clave === CLAVE_JEFE) {
                 errorMsg.classList.remove('show');
                 sessionStorage.setItem('jefeAutenticado', 'true');
-                mostrarExito('Bienvenido, Jefe', 'index.html');
+                mostrarExito('Bienvenido, Jefe', 'inicio.html');
             } else {
                 mostrarError('Clave incorrecta. Inténtalo de nuevo.');
                 document.getElementById('claveJefe').value = '';
@@ -617,5 +617,4 @@
         });
     </script>
 </body>
-
 </html>
